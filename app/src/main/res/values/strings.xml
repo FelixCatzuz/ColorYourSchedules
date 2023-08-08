@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ColorYourSchedules</string>
+
+    <!-- For week days -->
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+
+    <!-- For buttons-->
+    <string name="button_daySchedule">Day</string>
+    <string name="button_nightSchedule">Night</string>
+    <string name="button_addSchedule">Add schedule!</string>
+
+    <!-- For labels -->
+    <string name="label_color1">Teal</string>
+    <string name="label_color2">Purple</string>
+    <string name="label_deleteAll">Delete all</string>
+
+    <!-- Message dialog -->
+    <string name="toast_complete">Schedule saved!</string>
+    <string name="toast_db_clear">All schedules deleted</string>
+</resources>

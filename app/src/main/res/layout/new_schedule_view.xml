@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#60BDF3ED">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_day"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:text="@string/button_daySchedule"
+            android:textColor="#E2EBFFFD"
+            android:textSize="25dp"
+            android:background="@drawable/button_day_design"/>
+
+        <Button
+            android:id="@+id/button_night"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:textColor="#E2EBFFFD"
+            android:textSize="25dp"
+            android:text="@string/button_nightSchedule"
+            android:background="@drawable/button_night_design"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_color1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:layout_weight="2"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_color1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_margin="10dp"/>
+
+        <androidx.constraintlayout.utils.widget.MotionLabel
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_color2"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            android:paddingLeft="15dp"
+            android:layout_weight="2"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_color2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_addSchedule"
+            android:textColor="#E2EBFFFD"
+            android:textSize="25sp"
+            android:background="@drawable/button_add_design"/>
+
+    </LinearLayout>
+
+</LinearLayout>
